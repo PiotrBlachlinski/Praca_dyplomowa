@@ -1,0 +1,6 @@
+{
+    "prettier.proseWrap": "always",
+    "prettier.bracketSameLine": true,
+    "prettier.enable": true,
+    "prettier.singleAttributePerLine": true
+}

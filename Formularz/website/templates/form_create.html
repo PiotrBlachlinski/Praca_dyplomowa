@@ -1,0 +1,92 @@
+{% extends "base.html"%}
+{% block title %} Nowy formularz {% endblock%}
+
+{% block content %}
+<!--Wczesna wersja szablonu do tworzenia formularzy. Do działań testowych-->
+<form method="POST">
+    <h3 align="center">Utwórz nowy formularz</h3>
+    <div class="form-group">
+        <label for="title">Tytuł</label>
+        <input type="title" class="form-controll" id="title" name="title" placeholder="Podaj tytuł formularza"/>
+    </div>
+    <br />
+    <div class="form-group">
+        <label for="text">Pytanie 1</label>
+        <input type="text" class="form-controll" id="text" name="text" placeholder="Podaj pytanie"/>
+    </div>
+    <div class="form-group">
+        <label for="text">Odpowiedź</label>
+        <input type="text" class="form-controll" id="text" name="text" placeholder="Podaj odpowiedź"/>
+        <input type="radio" name="answer" value="answer">Poprawna odpowiedź
+    </div>
+    <div class="form-group">
+        <label for="text">Odpowiedź</label>
+        <input type="text" class="form-controll" id="text" name="text" placeholder="Podaj odpowiedź"/>
+        <input type="radio" name="answer" value="answer">Poprawna odpowiedź
+    </div>
+    <div class="form-group">
+        <label for="text">Odpowiedź</label>
+        <input type="text" class="form-controll" id="text" name="text" placeholder="Podaj odpowiedź"/>
+        <input type="radio" name="answer" value="answer">Poprawna odpowiedź
+    </div>
+    <div class="form-group">
+        <label for="text">Odpowiedź</label>
+        <input type="text" class="form-controll" id="text" name="text" placeholder="Podaj odpowiedź"/>
+        <input type="radio" name="answer" value="answer">Poprawna odpowiedź
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label for="text">Pytanie 2</label>
+        <input type="text" class="form-controll" id="text" name="text" placeholder="Podaj pytanie"/>
+    </div>
+    <div class="form-group">
+        <label for="text">Odpowiedź</label>
+        <input type="text" class="form-controll" id="text" name="text" placeholder="Podaj odpowiedź"/>
+        <input type="radio" name="answer" value="answer">Poprawna odpowiedź
+    </div>
+    <div class="form-group">
+        <label for="text">Odpowiedź</label>
+        <input type="text" class="form-controll" id="text" name="text" placeholder="Podaj odpowiedź"/>
+        <input type="radio" name="answer" value="answer">Poprawna odpowiedź
+    </div>
+    <div class="form-group">
+        <label for="text">Odpowiedź</label>
+        <input type="text" class="form-controll" id="text" name="text" placeholder="Podaj odpowiedź"/>
+        <input type="radio" name="answer" value="answer">Poprawna odpowiedź
+    </div>
+    <div class="form-group">
+        <label for="text">Odpowiedź</label>
+        <input type="text" class="form-controll" id="text" name="text" placeholder="Podaj odpowiedź"/>
+        <input type="radio" name="answer" value="answer">Poprawna odpowiedź
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label for="text">Pytanie 3</label>
+        <input type="text" class="form-controll" id="text" name="text" placeholder="Podaj pytanie"/>
+    </div>
+    <div class="form-group">
+        <label for="text">Odpowiedź</label>
+        <input type="text" class="form-controll" id="text" name="text" placeholder="Podaj odpowiedź"/>
+        <input type="radio" name="answer" value="answer">Poprawna odpowiedź
+    </div>
+    <div class="form-group">
+        <label for="text">Odpowiedź</label>
+        <input type="text" class="form-controll" id="text" name="text" placeholder="Podaj odpowiedź"/>
+        <input type="radio" name="answer" value="answer">Poprawna odpowiedź
+    </div>
+    <div class="form-group">
+        <label for="text">Odpowiedź</label>
+        <input type="text" class="form-controll" id="text" name="text" placeholder="Podaj odpowiedź"/>
+        <input type="radio" name="answer" value="answer">Poprawna odpowiedź
+    </div>
+    <div class="form-group">
+        <label for="text">Odpowiedź</label>
+        <input type="text" class="form-controll" id="text" name="text" placeholder="Podaj odpowiedź"/>
+        <input type="radio" name="answer" value="answer">Poprawna odpowiedź
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Utwórz</button>
+</form>
+{% endblock %}
