@@ -1,1 +1,1 @@
-# Praca_dyplomowa
+# Repozytorium dla aplikacji do pracy dyplomowej
