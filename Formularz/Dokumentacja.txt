@@ -1,3 +1,5 @@
+Instrukcja użytkownika
+
 Aplikacja tworzona jest w języku Python z pomocą frameworka Flask.
 Pierwszym krokiem jest pobranie instalatora i zainstalowanie biblioteki Python wraz z modułem pygame.
 Następnie otwieramy aplikację w wybranym środowisku programistycznym. W moim przypadku jest to Visual Studio Code.
@@ -12,6 +14,10 @@ Ostatecznie przechodzimy do pliku main.py i uruchamiamy go
 Jeśli wszystko przebiegło pomyślnie, w terminalu pojawi się informacja o uruchomieniu środowiska testowego wraz z adresem.
 Adres ten kopiujem do pola adresowego przeglądarki lub uruchamiamy poprzez przytrzymanie przycisku 'ctrl' na klawiaturze oraz kliknięcie na link lewym przyciskiem myszy
 Po otwarciu przeglądarki wyświetlona zostanie aplikacja
+
+----------------------
+
+Opis aplikacji
 
 Celem projektu jest stworzenie aplikacji umożliwiającej tworzenie oraz wypełniania formularzy, które posiadają logikę warunkową (Zależnie od wykonanych czynności bądź uzyskanych wyników, formularz ogranicza bądź umożliwia wyświetlanie dodatkowych treści)
 Przykłady:
