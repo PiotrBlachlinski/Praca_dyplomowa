@@ -1,0 +1,28 @@
+Aplikacja tworzona jest w języku Python z pomocą frameworka Flask.
+Pierwszym krokiem jest pobranie instalatora i zainstalowanie biblioteki Python wraz z modułem pygame.
+Następnie otwieramy aplikację w wybranym środowisku programistycznym. W moim przypadku jest to Visual Studio Code.
+Kolejno w konsoli w środowisku programistycznym, wpisujemy podane niżej komendy. Pozolą one na zainstalowanie frameworka Flask oraz wymaganych bibliotek oraz paczek zasobów
+ 
+pip install flask flask-sqlalchemy flask-login
+pip install werkzeug
+
+Lista wszystkich zainstalowanych paczek zasobów wraz z ich wersjami, została zapisana w pliku 'requirements.txt'
+
+Ostatecznie przechodzimy do pliku main.py i uruchamiamy go
+Jeśli wszystko przebiegło pomyślnie, w terminalu pojawi się informacja o uruchomieniu środowiska testowego wraz z adresem.
+Adres ten kopiujem do pola adresowego przeglądarki lub uruchamiamy poprzez przytrzymanie przycisku 'ctrl' na klawiaturze oraz kliknięcie na link lewym przyciskiem myszy
+Po otwarciu przeglądarki wyświetlona zostanie aplikacja
+
+Celem projektu jest stworzenie aplikacji umożliwiającej tworzenie oraz wypełniania formularzy, które posiadają logikę warunkową (Zależnie od wykonanych czynności bądź uzyskanych wyników, formularz ogranicza bądź umożliwia wyświetlanie dodatkowych treści)
+Przykłady:
+	-Nauczyciel tworzy dla uczniów quiz, który zależnie od uzyskanych punktów, wyświetla dodatkowe pytania dające możliwość otrzymania lepszej oceny
+	-Rekruter w firmie tworzy formularz, który za pomocą kilku wstępnych pytań, daje możliwość zdefiniowania czy pracownik pasuje do danego stanowiska, następnie zależnie od wyniku, zakańcza formularz bądź umożliwia przejście do następnego zestawu pytań
+
+Podczas rejestracji zakładana jest możliwośc tworzenia dwóch rodzajów kont użytkowników, do tworzenia formularzy oraz do ich rozwiązywania
+Poza użytkownikiem, planowane są równierz role administracyjne/moderacyjne, do kontroli produkowanej przez użytkowników treści
+
+Po uruchomieniu aplikacji mamy możliwość rejestracji nowego użytkownika oraz logowania się
+Strona 'rejestracja' pobiera wpisane przez użytkownika i za pomocą ich tworzy nowy profil. Prezentujemy tu możliwość zapisania danych w bazie danych oraz sprawdzanie wprowadzanych dancyh, jak minimalna długość wpisywancyh danych lub ponowne potwierdzenie hasła w celu jego zatwierdzenia.
+Na stronie 'logowanie', użytkownik loguje się za pomocą danych podanych podczas rejestracji. Aplikacja potwierdza czy informacje podane przez użytkownika znajdują się w bazie danych. Jeśli tak, nastepuje zalogowanie użytkownika, jeśli nie, pojawia się informacja o błędnie podanych danych.
+Strona 'nowy formularz' to miejsce w którym następuje tworzenie formularzy przez użytkownika.
+Obecnie istnieje tylko wstępna, wizualna wersja formularza. Nadal pracuję nad systemem który umożliwi zapisywanie formularzy
