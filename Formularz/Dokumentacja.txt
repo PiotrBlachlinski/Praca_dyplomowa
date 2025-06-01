@@ -13,7 +13,8 @@ Na liście plików znajdujemy plik ‘Dockerfile’, klikamy lewym przyciskiem m
 
  “[nazwa_użytkownika_docker]/[nazwa aplikacji]”. 
 
-Klikamy ‘Enter’. Po zakończeniu tworzenia obrazu, przechodzimy do zakładki ‘Docker’, znajduje się ona na liście po lewej stronie ekranu. Znajdujemy folder ‘obrazy’. W nim powinien znajdować się utworzony przez nas obraz, którego nazwa to: 
+Klikamy ‘Enter’. Po zakończeniu tworzenia obrazu, przechodzimy do zakładki ‘Docker’, znajduje się ona na liście po lewej stronie ekranu. Znajdujemy folder ‘obrazy’.
+W nim powinien znajdować się utworzony przez nas obraz, którego nazwa to: 
 
  “docker.io/ [nazwa_użytkownika_docker]/[nazwa aplikacji]”. 
 
@@ -77,13 +78,15 @@ Po otwarciu przeglądarki wyświetlona zostanie aplikacja
 
   
 
-Celem projektu jest stworzenie aplikacji umożliwiającej tworzenie oraz wypełniania formularzy, które posiadają logikę warunkową (Zależnie od wykonanych czynności bądź uzyskanych wyników, formularz ogranicza bądź umożliwia wyświetlanie dodatkowych treści) 
+Celem projektu jest stworzenie aplikacji umożliwiającej tworzenie oraz wypełniania formularzy, które posiadają logikę warunkową (Zależnie od wykonanych czynności bądź uzyskanych wyników,
+formularz ogranicza bądź umożliwia wyświetlanie dodatkowych treści) 
 
 Przykłady: 
 
 -Nauczyciel tworzy dla uczniów quiz, który zależnie od uzyskanych punktów, wyświetla dodatkowe pytania dające możliwość otrzymania lepszej oceny 
 
--Rekruter w firmie tworzy formularz, który za pomocą kilku wstępnych pytań, daje możliwość zdefiniowania czy pracownik pasuje do danego stanowiska, następnie zależnie od wyniku, zakańcza formularz bądź umożliwia przejście do następnego zestawu pytań 
+-Rekruter w firmie tworzy formularz, który za pomocą kilku wstępnych pytań, daje możliwość zdefiniowania czy pracownik pasuje do danego stanowiska, następnie zależnie od wyniku,
+zakańcza formularz bądź umożliwia przejście do następnego zestawu pytań 
 
   
 
@@ -95,9 +98,11 @@ Poza użytkownikiem, planowane są również role administracyjne/moderacyjne, d
 
 Po uruchomieniu aplikacji mamy możliwość rejestracji nowego użytkownika oraz logowania się 
 
-Strona 'rejestracja' pobiera wpisane przez użytkownika i za pomocą ich tworzy nowy profil. Prezentujemy tu możliwość zapisania danych w bazie danych oraz sprawdzanie wprowadzanych danych, jak minimalna długość wpisywanych danych lub ponowne potwierdzenie hasła w celu jego zatwierdzenia. 
+Strona 'rejestracja' pobiera wpisane przez użytkownika i za pomocą ich tworzy nowy profil. Prezentujemy tu możliwość zapisania danych w bazie danych oraz sprawdzanie wprowadzanych danych,
+jak minimalna długość wpisywanych danych lub ponowne potwierdzenie hasła w celu jego zatwierdzenia. 
 
-Na stronie 'logowanie', użytkownik loguje się za pomocą danych podanych podczas rejestracji. Aplikacja potwierdza czy informacje podane przez użytkownika znajdują się w bazie danych. Jeśli tak, następuje zalogowanie użytkownika, jeśli nie, pojawia się informacja o błędnie podanych danych. 
+Na stronie 'logowanie', użytkownik loguje się za pomocą danych podanych podczas rejestracji. Aplikacja potwierdza czy informacje podane przez użytkownika znajdują się w bazie danych.
+Jeśli tak, następuje zalogowanie użytkownika, jeśli nie, pojawia się informacja o błędnie podanych danych. 
 
 Strona 'nowy formularz' to miejsce w którym następuje tworzenie formularzy przez użytkownika. 
 
